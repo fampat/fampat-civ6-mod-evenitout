@@ -5,7 +5,7 @@ This mod revamps the difficulty-settings of the game.
 [b]Features[/b]
 Changes difficulties as shown:
 +---------------------------------+-----------+--------+-------+---------+----------+--------+-------------+
-|              Value              | Warlord*0 | Prince | King  | Emperor | Immortal | Deity  | Change-Type |
+|              Setting            | Warlord*0 | Prince | King  | Emperor | Immortal | Deity  | Change-Type |
 +---------------------------------+-----------+--------+-------+---------+----------+--------+-------------+
 | AI Gold and Production Bonus    | 0%        | 20%    | 40%   | 60%     | 80%      | 100%   | UNMODIFIED  |
 | AI Faith Bonus                  | 0%        | 8%     | 16%   | 24%     | 32%      | 40%    | UNMODIFIED  |
