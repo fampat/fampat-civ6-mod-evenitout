@@ -32,6 +32,8 @@ Changes difficulties as shown:
       Modern:     +1 if Deity or Immortal or Emperor
       Atomic:     +1 if Deity or Immortal or Emperor or King
 
+Here is a overview with the vanilla-settings: https://civ6.gamepedia.com/Game_difficulty
+
 [b]What's next?[/b]
 - Testing and tweaking
 
