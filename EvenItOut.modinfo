@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="8c8dcc43-95ab-4b5c-9734-46532dc2e0f4" version="0.1">
+<Mod id="8c8dcc43-95ab-4b5c-9734-46532dc2e0f4" version="1.0">
   <Properties>
     <Name>Even It Out</Name>
 	   <Teaser>Revamps the difficulty-settings of the game.</Teaser>
-    <Description>This mod revamps the difficulty-settings of the game.</Description>
+    <Description>This mod revamps the difficulty-settings and evens out the difficulty to start with lesser pressure on the player and increases with eras passing by.</Description>
     <Authors>Fampat, Casworon</Authors>
     <EnabledByDefault>1</EnabledByDefault>
     <DisabledAtStartup>0</DisabledAtStartup>
