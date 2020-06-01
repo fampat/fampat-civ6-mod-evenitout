@@ -23,6 +23,9 @@
   		<GameCoreInUse>Expansion2</GameCoreInUse>
   		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
   	</Criteria>
+    <Criteria id="FortifAI">
+      <ModInUse>20d1d40c-3085-11e9-b210-d663bd873d93</ModInUse>
+  	</Criteria>
   </ActionCriteria>
 
   <InGameActions>
@@ -44,10 +47,16 @@
   	  <File>Database/AIDefenseBoost.sql</File>
       <File>Database/AIEncampmentBoost.sql</File>
   	</UpdateDatabase>
+  	<UpdateDatabase id="EvenItOut_Database_FortifAI" Criteria="FortifAI">
+  	  <Properties>
+  		<LoadOrder>13066</LoadOrder>
+  	  </Properties>
+  	  <File>Database/FortifAIUndo.sql</File>
+  	</UpdateDatabase>
 
   	<UpdateDatabase id="EvenItOut_Database_XP2" Criteria="Expansion2">
   	  <Properties>
-  		<LoadOrder>13044</LoadOrder>
+  		<LoadOrder>13066</LoadOrder>
   	  </Properties>
       <File>Database/AIStratResDiscountGS.sql</File>
       <File>Database/AIGrievanceDecayReducedGS.sql</File>
@@ -77,5 +86,6 @@
     <File>Database/AIEncampmentBoost.sql</File>
     <File>Database/AIStratResDiscountGS.sql</File>
     <File>Database/AIGrievanceDecayReducedGS.sql</File>
+    <File>Database/FortifAIUndo.sql</File>
  </Files>
 </Mod>

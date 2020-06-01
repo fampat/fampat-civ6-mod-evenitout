@@ -1,3 +1,8 @@
+-- EvenItOut
+-- Author: Fampat, thanks and credits to the author of Smooth Difficulty
+-- Changes starting units for AI
+----------------------------------------------------------------------------
+
 -- Difficulties: Settler, Chieftain, Warlord, Prince, King, Emperor, Immortal, Deity
 
 -- Unmodified settlers unit count: 1, 1, 1, 1, 1, 2, 2, 3
