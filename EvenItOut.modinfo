@@ -41,6 +41,16 @@
   	  <File>Database/ProductionScaling.sql</File>
   	  <File>Database/AIWonderPenalties.sql</File>
   	  <File>Database/AIHolySitePenalty.sql</File>
+  	  <File>Database/AIDefenseBoost.sql</File>
+      <File>Database/AIEncampmentBoost.sql</File>
+  	</UpdateDatabase>
+
+  	<UpdateDatabase id="EvenItOut_Database_XP2" Criteria="Expansion2">
+  	  <Properties>
+  		<LoadOrder>13044</LoadOrder>
+  	  </Properties>
+      <File>Database/AIStratResDiscountGS.sql</File>
+      <File>Database/AIGrievanceDecayReducedGS.sql</File>
   	</UpdateDatabase>
 
     <LocalizedText id="EvenItOut_Texts">
@@ -63,5 +73,9 @@
     <File>Database/ProductionScaling.sql</File>
     <File>Database/AIWonderPenalties.sql</File>
     <File>Database/AIHolySitePenalty.sql</File>
+    <File>Database/AIDefenseBoost.sql</File>
+    <File>Database/AIEncampmentBoost.sql</File>
+    <File>Database/AIStratResDiscountGS.sql</File>
+    <File>Database/AIGrievanceDecayReducedGS.sql</File>
  </Files>
 </Mod>
