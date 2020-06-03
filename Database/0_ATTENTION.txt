@@ -10,18 +10,18 @@ Please keep this updated to reflect the current state of the changes.
 | AI Base Science & Culture Bonus | 0%        | 10%    | 20%   | 30%     | 40%      | 50%    | INCREASED   |
 | AI Era Science & Culture Bonus  | 0%        | 1%     | 2%    | 3%      | 4%       | 5%     | ADDED       |
 | AI Era Production Bonus         | 0%        | 1%     | 2%    | 3%      | 4%       | 5%     | ADDED       |
-| AI Strat. Resource-Cost Discount| 25%       | 25%    | 25%   | 25%     | 25%      | 25%    | ADDED       |
-| AI Defense-Build-Acceleration*3 | 0%        | 0%     | 15%   | 30%     | 45%      | 60%    | ADDED       |
-| AI Wonder Build-Deceleration    | 0%        | 0%     | 15%   | 30%     | 45%      | 60%    | ADDED       |
-| AI Holy-Site Build-Deceleration | 0%        | 0%     | 15%   | 30%     | 45%      | 60%    | ADDED       |
-| AI Combat-Bonus Over-Time *1    | 0         | 0      | 1,2,4 | 2,4,6   | 4,6,8    | 6,9,12 | ADDED       |
+| AI Strat. Resource-Cost Discount| 0%        | 0%     | 5%    | 10%     | 15%      | 20%    | ADDED       |
+| AI Defense-Build-Acceleration*3 | 0%        | 0%     | 10%   | 20%     | 30%      | 40%    | ADDED       |
+| AI Wonder Build-Deceleration    | 0%        | 0%     | 10%   | 20%     | 35%      | 50%    | ADDED       |
+| AI Holy-Site Build-Deceleration | 0%        | 0%     | 10%   | 20%     | 35%      | 50%    | ADDED       |
+| AI Combat-Bonus Over-Time *1    | 0         | 0      | 1,2,3 | 2,3,4   | 3,4,5    | 4,5,6  | ADDED       |
 | AI Bonus vs Barbarians          | 0         | 0      | 1     | 2       | 4        | 6      | ADDED       |
 | AI Bonus-Amenities Over-Time *2 | 0         | 0      | 1     | 2       | 3        | 4      | ADDED       |
 | AI Extra Military Units         | 0         | 0      | 1     | 2       | 3        | 4      | MODIFIED    |
 | AI Extra Settlers               | 0         | 0      | 0     | 0       | 1        | 1      | MODIFIED    |
 | AI Extra Builders               | 0         | 0      | 1     | 1       | 1        | 2      | MODIFIED    |
 | Player Production Penalty       | 0         | 0      | 3%    | 6%      | 10%      | 15%    | ADDED       |
-| Global Grievance Decay Slowed   | ~25%      | ~25%   | ~25%  | ~25%    | ~25%     | 25%    | ADDED       |
+| Global Grievance Decay Slowed   | ~25%      | ~25%   | ~25%  | ~25%    | ~25%     | ~25%   | ADDED       |
 +---------------------------------+-----------+--------+-------+---------+----------+--------+-------------+
 
 *0: Warlord or less
