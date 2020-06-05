@@ -1,27 +1,34 @@
 [h1]Even It Out[/h1]
 
 This mod revamps the difficulty-settings of the game.
+The intention is to have a more scaled experience with no need to adjust your playstyle in a whole because you step up the difficulty.
+
+A good example of this is the fact it is very difficult to compete with the AI on building wonders or holy-sites on deity, this mod allows you to
+be able to do just that, but things getting tough the more the game progresses.
 
 [b]Features[/b]
-Changes difficulties as shown:
-[img]https://raw.githubusercontent.com/fampat/fampat-civ6-mod-evenitout/patch__20_may/Assets/changes-table.jpg[/img]
+Changes, adding and removing difficulty-setting as shown:
+[img]https://i.imgur.com/zBT5ELn.jpg[/img]
 
-Here is a overview with the vanilla-settings: https://civ6.gamepedia.com/Game_difficulty
+Here is a overview of the vanilla-settings: https://civ6.gamepedia.com/Game_difficulty
 
 [b]What's next?[/b]
-- Testing and tweaking
+- Testing and tweaking, alot!
 
 [b]Known issues[/b]
-- None reported or known right now
+- None known right now
 
 [b]Game-versions & Localizations[/b]
 Works with Basegame, R&F and GS.
-Currently localized for EN and DE
+Currently localized for EN and DE (unit modifiers)
 
 [b]Every feedback and bug-report is welcome![/b]
 
 [b]Want to support?[/b]
 Rate it!
+
+[b]Credits[/b]
+Credits go to the creator of the "Smoother Difficulty" mod and schwarzpol.
 
 Maybe you will also enjoy these mods:
 - "Gift It To Me" - https://steamcommunity.com/sharedfiles/filedetails/?id=1683750352

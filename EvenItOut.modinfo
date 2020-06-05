@@ -41,6 +41,7 @@
   	  <File>Database/StartingUnits.sql</File>
   	  <File>Database/CultureScaling.sql</File>
   	  <File>Database/ScienceScaling.sql</File>
+  	  <File>Database/TourismScaling.sql</File>
   	  <File>Database/ProductionScaling.sql</File>
   	  <File>Database/AIWonderPenalties.sql</File>
   	  <File>Database/AIHolySitePenalty.sql</File>
@@ -79,6 +80,7 @@
     <File>Database/StartingUnits.sql</File>
     <File>Database/CultureScaling.sql</File>
     <File>Database/ScienceScaling.sql</File>
+    <File>Database/TourismScaling.sql</File>
     <File>Database/ProductionScaling.sql</File>
     <File>Database/AIWonderPenalties.sql</File>
     <File>Database/AIHolySitePenalty.sql</File>
