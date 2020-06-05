@@ -46,20 +46,20 @@ INSERT INTO Modifiers (ModifierId, ModifierType, OwnerRequirementSetId, Permanen
 INSERT INTO ModifierArguments (ModifierId, Name, Type, Value, Extra) VALUES
 -- King
 ('KING_ERA_1', 'Amount', 'LinearScaleFromDefaultHandicap', '1', '0'),
-('KING_ERA_2', 'Amount', 'LinearScaleFromDefaultHandicap', '2', '0'),
-('KING_ERA_3', 'Amount', 'LinearScaleFromDefaultHandicap', '3', '0'),
+('KING_ERA_2', 'Amount', 'LinearScaleFromDefaultHandicap', '1', '0'),
+('KING_ERA_3', 'Amount', 'LinearScaleFromDefaultHandicap', '1', '0'),
 -- Emperor
 ('EMPEROR_ERA_1', 'Amount', 'LinearScaleFromDefaultHandicap', '1', '0'),
 ('EMPEROR_ERA_2', 'Amount', 'LinearScaleFromDefaultHandicap', '1', '0'),
-('EMPEROR_ERA_3', 'Amount', 'LinearScaleFromDefaultHandicap', '1', '0'),
+('EMPEROR_ERA_3', 'Amount', 'LinearScaleFromDefaultHandicap', '2', '0'),
 -- Immortal
 ('IMMORTAL_ERA_1', 'Amount', 'LinearScaleFromDefaultHandicap', '1', '0'),
-('IMMORTAL_ERA_2', 'Amount', 'LinearScaleFromDefaultHandicap', '1', '0'),
-('IMMORTAL_ERA_3', 'Amount', 'LinearScaleFromDefaultHandicap', '1', '0'),
+('IMMORTAL_ERA_2', 'Amount', 'LinearScaleFromDefaultHandicap', '2', '0'),
+('IMMORTAL_ERA_3', 'Amount', 'LinearScaleFromDefaultHandicap', '2', '0'),
 -- Deity
-('DEITY_ERA_1', 'Amount', 'LinearScaleFromDefaultHandicap', '1', '0'),
-('DEITY_ERA_2', 'Amount', 'LinearScaleFromDefaultHandicap', '1', '0'),
-('DEITY_ERA_3', 'Amount', 'LinearScaleFromDefaultHandicap', '1', '0');
+('DEITY_ERA_1', 'Amount', 'LinearScaleFromDefaultHandicap', '2', '0'),
+('DEITY_ERA_2', 'Amount', 'LinearScaleFromDefaultHandicap', '2', '0'),
+('DEITY_ERA_3', 'Amount', 'LinearScaleFromDefaultHandicap', '2', '0');
 
 -- String for localization-texts
 INSERT INTO ModifierStrings (ModifierId, Context, Text) VALUES
@@ -105,32 +105,41 @@ INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES
 ('MEDIEVAL_RENAISSANCE_AND_KING', 'REQUIRES_PLAYER_IS_AI'),
 ('MEDIEVAL_RENAISSANCE_AND_KING', 'PLAYER_AT_MEDIEVAL_ERA'),
 ('MEDIEVAL_RENAISSANCE_AND_KING', 'REQUIRES_KING'),
+('MEDIEVAL_RENAISSANCE_AND_KING', 'REQUIRES_NOT_EMPEROR'),
 ('INDUSTRIAL_MODERN_AND_KING', 'REQUIRES_PLAYER_IS_AI'),
 ('INDUSTRIAL_MODERN_AND_KING', 'PLAYER_AT_INDUSTRIAL_ERA'),
 ('INDUSTRIAL_MODERN_AND_KING', 'REQUIRES_KING'),
+('INDUSTRIAL_MODERN_AND_KING', 'REQUIRES_NOT_EMPEROR'),
 ('ATOMIC_AND_KING', 'REQUIRES_PLAYER_IS_AI'),
 ('ATOMIC_AND_KING', 'PLAYER_AT_ATOMIC_ERA'),
 ('ATOMIC_AND_KING', 'REQUIRES_KING'),
+('ATOMIC_AND_KING', 'REQUIRES_NOT_EMPEROR'),
 -- Emperor
 ('MEDIEVAL_RENAISSANCE_AND_EMPEROR', 'REQUIRES_PLAYER_IS_AI'),
 ('MEDIEVAL_RENAISSANCE_AND_EMPEROR', 'PLAYER_AT_MEDIEVAL_ERA'),
 ('MEDIEVAL_RENAISSANCE_AND_EMPEROR', 'REQUIRES_EMPEROR'),
+('MEDIEVAL_RENAISSANCE_AND_EMPEROR', 'REQUIRES_NOT_IMMORTAL'),
 ('INDUSTRIAL_MODERN_AND_EMPEROR', 'REQUIRES_PLAYER_IS_AI'),
 ('INDUSTRIAL_MODERN_AND_EMPEROR', 'PLAYER_AT_INDUSTRIAL_ERA'),
 ('INDUSTRIAL_MODERN_AND_EMPEROR', 'REQUIRES_EMPEROR'),
+('INDUSTRIAL_MODERN_AND_EMPEROR', 'REQUIRES_NOT_IMMORTAL'),
 ('ATOMIC_AND_EMPEROR', 'REQUIRES_PLAYER_IS_AI'),
 ('ATOMIC_AND_EMPEROR', 'PLAYER_AT_ATOMIC_ERA'),
 ('ATOMIC_AND_EMPEROR', 'REQUIRES_EMPEROR'),
+('ATOMIC_AND_EMPEROR', 'REQUIRES_NOT_IMMORTAL'),
 -- Immortal
 ('MEDIEVAL_RENAISSANCE_AND_IMMORTAL', 'REQUIRES_PLAYER_IS_AI'),
 ('MEDIEVAL_RENAISSANCE_AND_IMMORTAL', 'PLAYER_AT_MEDIEVAL_ERA'),
 ('MEDIEVAL_RENAISSANCE_AND_IMMORTAL', 'REQUIRES_IMMORTAL'),
+('MEDIEVAL_RENAISSANCE_AND_IMMORTAL', 'REQUIRES_NOT_DEITY'),
 ('INDUSTRIAL_MODERN_AND_IMMORTAL', 'REQUIRES_PLAYER_IS_AI'),
 ('INDUSTRIAL_MODERN_AND_IMMORTAL', 'PLAYER_AT_INDUSTRIAL_ERA'),
 ('INDUSTRIAL_MODERN_AND_IMMORTAL', 'REQUIRES_IMMORTAL'),
+('INDUSTRIAL_MODERN_AND_IMMORTAL', 'REQUIRES_NOT_DEITY'),
 ('ATOMIC_AND_IMMORTAL', 'REQUIRES_PLAYER_IS_AI'),
 ('ATOMIC_AND_IMMORTAL', 'PLAYER_AT_ATOMIC_ERA'),
 ('ATOMIC_AND_IMMORTAL', 'REQUIRES_IMMORTAL'),
+('ATOMIC_AND_IMMORTAL', 'REQUIRES_NOT_DEITY'),
 -- Deity
 ('MEDIEVAL_RENAISSANCE_AND_DEITY', 'REQUIRES_PLAYER_IS_AI'),
 ('MEDIEVAL_RENAISSANCE_AND_DEITY', 'PLAYER_AT_MEDIEVAL_ERA'),

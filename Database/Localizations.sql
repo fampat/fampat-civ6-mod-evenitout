@@ -12,7 +12,7 @@ INSERT INTO BaseGameText (Tag, Text) VALUES
 ('LOC_EMPEROR_ERA_3', '+{Amount} [ICON_Strength] Emperor difficulty & Passed Atomic Era'),
 ('LOC_IMMORTAL_ERA_1', '+{Amount} [ICON_Strength] Immortal difficulty & Passed Medieval Era'),
 ('LOC_IMMORTAL_ERA_2', '+{Amount} [ICON_Strength] Immortal difficulty & Passed Industrial Era'),
-('LOC_IMMORTAL_ERA_3', '+{Amount} [ICON_Strength] Emperor difficulty & Passed Atomic Era'),
+('LOC_IMMORTAL_ERA_3', '+{Amount} [ICON_Strength] Immortal difficulty & Passed Atomic Era'),
 ('LOC_DEITY_ERA_1', '+{Amount} [ICON_Strength] Deity difficulty & Passed Medieval Era'),
 ('LOC_DEITY_ERA_2', '+{Amount} [ICON_Strength] Deity difficulty & Passed Industrial Era'),
 ('LOC_DEITY_ERA_3', '+{Amount} [ICON_Strength] Deity difficulty & Passed Atomic Era');
